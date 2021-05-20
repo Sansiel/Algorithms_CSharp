@@ -18,6 +18,15 @@ namespace Sorts
                     case "m":
                         MergeSorting.MainSort();
                         break;
+                    case "c":
+                        CountSorting.MainSort();
+                        break;
+                    case "r":
+                        RadixSorting.MainSort();
+                        break;
+                    case "g":
+                        GnomeSorting.MainSort();
+                        break;
                 }
                 Console.WriteLine("To end program type 'stop'");
             }
