@@ -11,6 +11,8 @@
         Next_Node { get; set; }
     }
 ```
+![image](https://user-images.githubusercontent.com/37710447/119268459-27e2d400-bc04-11eb-98df-7db8a9aec702.png)
+
 - - - - - - - -
 Кольцевой
 ```
@@ -21,6 +23,8 @@
     }
 ```
 Next_Node на последнем эллементе ссылается на head   
+![image](https://user-images.githubusercontent.com/37710447/119268465-30d3a580-bc04-11eb-916a-38de0b6f566b.png)
+
 - - - - - - - -
 
 
@@ -34,15 +38,20 @@ Next_Node на последнем эллементе ссылается на hea
             Value { get; set; }
         }
 ```
-Они бывают 3 типов
+Они бывают разные
+* двоичное древо поиска ![image](https://user-images.githubusercontent.com/37710447/119268592-bce5cd00-bc04-11eb-9c45-905e74a612a4.png)
+
+* двоичная куча ![image](https://user-images.githubusercontent.com/37710447/119268557-89a33e00-bc04-11eb-8804-babf9dbdc42e.png)
+
 - - - - - - - -
 
 
 Матрица смежности
 ---------
 обход в глубину:
-
+![image](https://user-images.githubusercontent.com/37710447/119268097-71caba80-bc02-11eb-96df-4d5249ced190.png)
 обход в ширину:
+![image](https://user-images.githubusercontent.com/37710447/119268101-7a22f580-bc02-11eb-82ad-eaa1dfcf6d4e.png)
 
 
 
