@@ -9,7 +9,7 @@ namespace Graphs
             string choose = "";
             while (choose != "stop")
             {
-                Console.WriteLine("Choose - DoubleLinkedList (d) / CircleLinkedList (c) / MatrixGraph (m) / ListGraph(l) / BinaryTree (b)");
+                Console.WriteLine("Choose - DoubleLinkedList (d) / CircleLinkedList (c) / MatrixGraph (m) / ListGraph(l) / BinaryTree (b) / HashTable (h)");
                 choose = Console.ReadLine();
                 switch (choose)
                 {
@@ -27,6 +27,9 @@ namespace Graphs
                         break;
                     case "b":
                         BinaryTree.MainG();
+                        break;
+                    case "h":
+                        HashTableExample.MainG();
                         break;
                 }
                 Console.WriteLine("To end program type 'stop'");
